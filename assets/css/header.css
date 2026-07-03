@@ -1,0 +1,96 @@
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
+    transition: 0.5s;
+}
+.top-menu .titulo-header{
+    text-align: center;
+    line-height: 20px;
+}
+.top-menu .titulo-header h3{
+    color: var(--text-title);
+    font-family: var(--font-title);
+    letter-spacing: 1px;
+    font-size: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: letra 2s steps(100) forwards;
+}
+@keyframes letra {
+    100%{
+        width: 100%;
+    }
+    
+}
+.top-menu .titulo-header p{
+    color: var(--primary);
+    font-family: var(--font-title);
+    font-size: 12.8px;
+    font-weight: 600;
+    animation: letra 2s steps(100) forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.navbar{
+    display: flex;
+    gap: 2rem;
+}
+.navbar a{
+    color: var(--text-primary);
+    font-family: var(--font-text);
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+}
+.navbar a::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 1px;
+    width: 0;
+    bottom: -2px;
+    transition: 0.3s;
+    background-color: var(--primary);
+}
+.navbar a:hover::after{
+    width: 100%;
+}
+.navbar.active{
+    display: block;
+}
+.btn-header{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.btn-header button{
+    background-color: transparent;
+    border: 2px solid var(--border-primary);
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    transition: var(--transition);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn-header button:hover{
+    border: 2px solid var(--primary);
+}
+.btn-header i{
+    font-size: 20px;
+    color: var(--bg-main);
+    background-color: var(--icon-primary);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}

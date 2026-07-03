@@ -1,0 +1,106 @@
+.icone-celular {
+  position: fixed;
+  bottom: 6%;
+  right: 2%;
+  z-index: 999;
+}
+.icone-celular i {
+  background-color: var(--primary-dark);
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+  
+}
+
+.sobre {
+  background-color: var(--text-title);
+  min-height: 100vh;
+}
+.informacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5rem;
+  margin-bottom: 4rem;
+}
+.info-sobre {
+  padding-left: 3rem;
+}
+.info-sobre .sobrenos {
+  color: rgb(26, 36, 29);
+  font-family: var(--font-title);
+  font-weight: 500;
+  letter-spacing: 3px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.info-sobre .sobrenos hr {
+  border: none;
+  background-color: rgb(26, 36, 29);
+  width: 2rem;
+  height: 1px;
+}
+.info-sobre h1 {
+  font-size: 3.5rem;
+  font-family: var(--font-text);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.info-sobre h1 span {
+  color: var(--primary-dark);
+}
+.info-sobre hr {
+  width: 3rem;
+  height: 2px;
+  border: none;
+  background-color: rgb(26, 36, 29);
+  margin-bottom: 10px;
+}
+.info-sobre p {
+  padding-bottom: 20px;
+  font-family: var(--font-text);
+  font-size: 14px;
+  color: rgb(37, 37, 37);
+}
+.btn-sobre {
+  margin-top: 10px;
+}
+.btn-sobre button {
+  color: var(--text-title);
+  background-color: rgb(3, 61, 19);
+  border-radius: 5px;
+  padding: 15px 30px;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s;
+}
+.btn-sobre button:hover {
+  background-color: rgb(1, 37, 12);
+}
+.img {
+  margin-right: 20px;
+}
+.img img {
+  width: 600px;
+  border-radius: 10px;
+  border: 1px solid rgb(1, 37, 12);
+  box-shadow: 4px 4px 10px rgb(1, 37, 12);
+  animation: elevar 3s ease infinite;
+}
+
+@keyframes elevar {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

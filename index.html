@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrição do projeto">
+    <meta name="author" content="Giovani">
+    <title>AGRONOVA</title>
+    <link rel="shortcut icon" href="assets/img/app.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css">
+    <link rel="icon" href="assets/icons/favicon.ico">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="icone-celular">
+            <i class="ri-smartphone-line" id="btn-celular"></i>
+        </div>
+        <header class="top-menu">
+            <div class="titulo-header">
+                <h3>AGRONOVA</h3>
+                <p>ENGENHARIA AGRICULA</p>
+            </div>
+            <nav class="navbar">
+                <a href="#sobre">SOBRE</a>
+                <a href="#servicos">SOLUÇÕES</a>
+                <a href="#contato" id="navcontato">CONTATO</a>
+            </nav>
+            <div class="btn-header">
+                <button>FALE CONOSCO</button>
+                <i class="ri-menu-line"></i>
+            </div>
+        </header>
+
+        <section class="inicio">
+            <div class="info-inicio">
+                <div class="info-formacao">
+                    <h4 class="aparecer">TECNOLIGIA</h4>
+                    <hr class="aparecer">
+                    <h4 class="aparecer">INOVAÇÃO</h4>
+                    <hr class="aparecer">
+                    <h4 class="aparecer">SUSTENTABILIDADE</h4>
+                </div>
+                <h1 class="aparecer">ENGENHARIA <br>QUE TRANSFORMA <br><span>O FUTURO DO <br>AGRONEGÓCIO.</span></h1>
+                <hr class="hr aparecer">
+                <p class="aparecer">Soluções inteligentes e sustentáveis que aumentam a produtividade, <br>reduz custos
+                    e preservam o que mais importa: o nosso planeta.</p>
+                <div class="btn-inicio">
+                    <button class="aparecer">CONHEÇA NOSSOS PROJETOS <i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
+            <div class="categoria">
+                <div class="card">
+                    <i class="ri-leaf-fill"></i>
+                    <div class="info-card">
+                        <h4>+500</h4>
+                        <p>PROJETOS REALIZADOS</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="ri-map-pin-line"></i>
+                    <div class="info-card">
+                        <h4>+120 MIL</h4>
+                        <p>HECTARES ATENDIDOS</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="ri-line-chart-fill"></i>
+                    <div class="info-card">
+                        <h4>98%</h4>
+                        <p>SATISFAÇÃO DOS CLIENTES</p>
+                    </div>
+                </div>
+            </div>
+            <div class="role">
+                <div class="mouse">
+                    <div class="linha"></div>
+                </div>
+                <p>ROLE PARA EXPLORAR</p>
+            </div>
+        </section>
+        <section class="sobre" id="sobre">
+            <div class="informacao">
+                <div class="info-sobre">
+                    <div class="sobrenos">
+                        <p class="so">SOBRE NÓS</p>
+                        <hr class="so">
+                    </div>
+                    <h1 class="so">Engenharia que <br>conecta tecnologia, <br><span>sustentabilidade <br>e
+                            resultados.</span></h1>
+                    <hr class="so">
+                    <p class="so">A AgroNova Engenharia Agricula nasceu da união entre conhecimento <br>técnico,
+                        inovação e paixão pelo campo. Densenvolvemos soluções <br>inteligentes que otimizam processos,
+                        aumentam a produtividade e <br>promovem o uso consciente dos recursos naturais.</p>
+                    <p class="so">Atuamos em todas as etapas do projeto agricula, oferecendo <br>tecnologia de ponta,
+                        análise de daods e acompanhamento próximo <br>para gerar resultados reais e
+                        <span>sustentáveis.</span>
+                    </p>
+                    <div class="btn-sobre">
+                        <button class="so">CONHEÇA NOSSAS SOLUÇÕES <i class="ri-arrow-right-up-line"></i></button>
+                    </div>
+                </div>
+                <div class="img">
+                    <img class="so" src="assets/img/sobre.jpg" alt="sobre-img">
+                </div>
+            </div>
+        </section>
+
+        <article class="celular" id="celular">
+            <button class="fechar-tablet">X</button>
+            <div class="celular-app">
+                <div class="volume"></div>
+                <div class="desligamento" id="desligamento"></div>
+                <div class="tela" id="tela"></div>
+                <div class="bloqueio" id="bloqueio">
+                    <div class="hora" id="horas"></div>
+                </div>
+                <div class="senha-app" id="senha">
+                    <i class="ri-phone-lock-fill"></i>
+                    <p>Digite o código</p>
+                    <div class="codigo">
+                        <div class="bolinha"></div>
+                        <div class="bolinha"></div>
+                        <div class="bolinha"></div>
+                        <div class="bolinha"></div>
+                        <div class="bolinha"></div>
+                        <div class="bolinha"></div>
+                    </div>
+                    <div class="btn">
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <button>5</button>
+                        <button>6</button>
+                        <button>7</button>
+                        <button>8</button>
+                        <button>9</button>
+                        <div></div>
+                        <button>0</button>
+                    </div>
+                </div>
+                <div class="principal" id="principal">
+                    <div class="mensagem">
+                    </div>
+                    <div class="grid-icon">
+                        <div class="iconee-principal" id="principal-app">
+                            <div class="icone-tela" id="app-principal">
+                                <div class="incons"></div>
+                            </div>
+                            <p>AgroNova</p>
+                        </div>
+                        <div class="iconee-wall" id="wallpaper">
+                            <div class="wallpaper">
+                                <img src="assets/img/wallpaper.png" alt="wallpaper">
+                            </div>
+                            <p>WallPaper</p>
+                        </div>
+                        <div class="iconee-galeria" id="btn-galeria">
+                            <div class="galeria-icon">
+                                <img src="assets/img/galeria.png" alt="galeria">
+                            </div>
+                            <p>Galeria</p>
+                        </div>
+                        <div class="iconee-chat" id="Appchat">
+                            <div class="img-chat">
+                                <img src="assets/img/appchat.png" alt="chataro">
+                            </div>
+                            <p>AgroChat</p>
+                        </div>
+                        <div class="iconee-central" id="appcentral">
+                            <div class="img-central">
+                                <img src="assets/img/central.png" alt="central">
+                            </div>
+                            <p>AgroCentral</p>
+                        </div>
+                    </div>
+                    <section class="map-regiao">
+                        <header class="cabecalho">
+                            <i class="ri-arrow-left-line" id="voltar"></i>
+                            <i class="ri-seedling-line seed"></i>
+                            <h3>AgroNova</h3>
+                            <i class="ri-arrow-down-s-line arrow"></i>
+                        </header>
+                        <article class="mapa">
+                            <div class="pequeno"></div>
+                            <div class="condicoes">
+                                <div class="cond-titulo">
+                                    <i class="ri-leaf-fill"></i>
+                                    <p>Condições</p>
+                                </div>
+                                <div class="cards-temperatura">
+                                    <div class="carde">
+                                        <i class="ri-temp-hot-line temp"></i>
+                                        <div class="info-card">
+                                            <p class="temp-numero">0<i class="ri-celsius-line"></i></p>
+                                            <p>Temperatura</p>
+                                        </div>
+                                    </div>
+                                    <div class="carde">
+                                        <i class="ri-contrast-drop-2-line drop"></i>
+                                        <div class="info-card">
+                                            <p class="umi-numero">0%</p>
+                                            <p>Umidade</p>
+                                        </div>
+                                    </div>
+                                    <div class="carde">
+                                        <i class="ri-windy-line wind"></i>
+                                        <div class="info-card">
+                                            <p class="vento-numero">0km/h</p>
+                                            <p>Vento</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="atalhos">
+                                    <h3>Atalhos</h3>
+                                    <div class="cards-atalhos">
+                                        <div class="carde">
+                                            <i class="ri-camera-4-line"></i>
+                                            <p>Camera</p>
+                                        </div>
+                                        <div class="carde">
+                                            <i class="ri-map-2-line"></i>
+                                            <p>Mapa</p>
+                                        </div>
+                                        <div class="carde">
+                                            <i class="ri-drizzle-line"></i>
+                                            <p>Clima</p>
+                                        </div>
+                                        <div class="carde">
+                                            <i class="ri-more-line"></i>
+                                            <p>Mais</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="alertas">
+                                    <h3>Alertas</h3>
+                                    <div class="cards-alerta">
+                                        <div class="card sumir">
+                                            <div class="info-left">
+                                                <i class="fa-solid fa-cloud-showers-heavy  water"></i>
+                                                <div class="info-alert">
+                                                    <h4>Chuva forte</h4>
+                                                    <p>Leste</p>
+                                                </div>
+                                            </div>
+                                            <p>Agora</p>
+                                        </div>
+                                        <div class="card desaparecer">
+                                            <div class="info-left">
+                                                <i class="ri-leaf-line folhas"></i>
+                                                <div class="info-alert">
+                                                    <h4>Alerta de Queda de Folhas</h4>
+                                                    <p>Norte</p>
+                                                </div>
+                                            </div>
+                                            <p>2 min</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <aside>
+                                    <i class="ri-home-9-line"></i>
+                                    <p>Inicio</p>
+                                </aside>
+                            </div>
+                        </article>
+                    </section>
+                    <article class="agrochat" id="agrochat">
+                        <div class="agro-whats">
+                            <header class="header-chat">
+                                <i class="ri-arrow-left-s-line" id="voltar-chat"></i>
+                                <div class="titulo-header">
+                                    <h3><span>AGRO</span>CHAT</h3>
+                                    <p>Assistente inteligente AgroNova</p>
+                                </div>
+                                <i class="ri-menu-line"></i>
+                            </header>
+                            <section class="conversa" id="chat">
+                            </section>
+                            <div class="box-text">
+                                <div class="input-box">
+                                    <i class="ri-attachment-2"></i>
+                                    <input type="text" id="input-chat" placeholder="Digite sua mensagem...">
+                                </div>
+                                <i class="ri-send-ins-fill send" onclick="chatbot()"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="geral" id="central">
+                        <header class="central-header">
+                            <i class="ri-arrow-left-s-line" id="voltar-central"></i>
+                            <div class="titulo-header">
+                                <h3><span>CENT</span>RAL</h3>
+                                <p>Hub AgroNova</p>
+                            </div>
+                            <i class="ri-menu-line"></i>
+                        </header>
+                        <section class="info-central">
+                            <img src="assets/img/central.png" alt="central">
+                            <h4>Navegue pelo que <br> move a <span>AGroNova</span></h4>
+                            <p>Explore nossas áreas e soluções <br>para o agronegócio.</p>
+                        </section>
+                        <section class="secoes">
+                            <div class="secao-central">
+                                <div class="secao-catalogo tectu">
+                                    <div class="secao-separada">
+                                        <i class="ri-cpu-line"></i>
+                                        <div class="info-secao">
+                                            <h3>Tecnologia</h3>
+                                            <p>Inovação que aplicamos</p>
+                                        </div>
+                                    </div>
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </div>
+                                <div class="catalogo-secao-info">
+                                    <img src="assets/img/tec.png" alt="tecnologia">
+                                    <div class="info-catalogo">
+                                        <p>Na AgroNova, aplicamos tecnologias <br>avançadas para tornar o agronegócio
+                                            mais
+                                            <br>eficiente, conectado e inteligente.
+                                        </p>
+                                        <button class="btn-tecnologia">Saiba Mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="secao-central">
+                                <div class="secao-catalogo">
+                                    <div class="secao-separada">
+                                        <i class="ri-draft-line"></i>
+                                        <div class="info-secao">
+                                            <h3>Projetos</h3>
+                                            <p>Resultados que conquistamos</p>
+                                        </div>
+                                    </div>
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </div>
+                                <div class="catalogo-secao-info">
+                                    <img src="assets/img/projeto.png" alt="projeto">
+                                    <div class="info-catalogo">
+                                        <p>Cada projeto da AgroNova é desenvolvido <br>para atender desafios reais com
+                                            soluções <br> estratégicas e inovadoras.</p>
+                                        <button>Saiba Mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="secao-central">
+                                <div class="secao-catalogo">
+                                    <div class="secao-separada">
+                                        <i class="ri-customer-service-2-line"></i>
+                                        <div class="info-secao">
+                                            <h3>Contatos</h3>
+                                            <p>Fale com a nossa equipe</p>
+                                        </div>
+                                    </div>
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </div>
+                                <div class="catalogo-secao-info">
+                                    <img src="assets/img/contato.png" alt="contato">
+                                    <div class="info-catalogo">
+                                        <p>Nossa equipe está pronta para entender <br>suas necessidades e encontrar a
+                                            melhor
+                                            <br>solução para o seu negócio.
+                                        </p>
+                                        <button id="btn-contato">Saiba Mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                </div>
+            </div>
+            <div class="secao-tecnologia">
+                <section class="tecnologia-site">
+                    <div class="partes-tec">
+                        <img class="movimentodrone" src="assets/img/dronemovimento.png" alt="movimento">
+                        <div class="info-tecx">
+                            <div class="descricao">
+                                <h3>TECNOLOGIA</h3>
+                                <hr>
+                                <i class="ri-seedling-fill"></i>
+                            </div>
+                            <h1>Na <span>AgroNova</span>,</h1>
+                            <h2>aplicamos tecnologias <br> avançadas para tornar o <br>agronegócio mais
+                                <br><span>eficiente</span>, <span>conectado</span> <br>e<span> inteligente</span>.</h2>
+                            <p class="desc">Soluções que integram dados, pessoas e processos <br>para impulsionar
+                                resultados no campo.</p>
+                            <div class="cards-tec">
+                                <div class="card">
+                                    <i class="ri-wifi-fill"></i>
+                                    <h3>CONECTIVIDADE</h3>
+                                    <p>Integração em tempo <br>real, onde você <br>estiver.</p>
+                                </div>
+                                <div class="card">
+                                    <i class="ri-signal-cellular-3-fill"></i>
+                                    <h3>ÁNALISE DE DADOS</h3>
+                                    <p>Insights precisos para <br>decisões mais <br>assertivas.</p>
+                                </div>
+                                <div class="card">
+                                    <i class="ri-leaf-fill"></i>
+                                    <h3>AUTOMAÇÃO</h3>
+                                    <p>Processos otimizados <br>para mais produtividade <br>e eficiência.</p>
+                                </div>
+                                <div class="card">
+                                    <i class="ri-settings-5-fill"></i>
+                                    <h3>GESTÃO INTELIGENTE</h3>
+                                    <p>Visão completa da <br>operacão na palma <br>da mão.</p>
+                                </div>
+                            </div>
+                            <button id="btn-tec-info">TECNOLOGIA QUE TRANSFORMA O CAMPO <i
+                                    class="ri-arrow-drop-right-line"></i></button>
+                        </div>
+                        <div class="img-tec">
+                            <div class="img"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+        <section class="servicos" id="servicos">
+            <div class="info-servicos">
+                <div class="info">
+                    <h4 class="so">NOSSAS SOLUÇÕES</h4>
+                    <h1 class="so">TECNOLOGIA QUE <br><span>GERA RESULTADOS</span></h1>
+                    <p class="so">Soluções inteligentes e integradas para transformar dados em decisões
+                        <br>estratégicas, aumentar a produtividade e promover uma agricultura <br>mais eficiente,
+                        sustentavel e lucrativa.
+                    </p>
+                </div>
+            </div>
+            <article class="galeria">
+                <div class="cards-galeria"></div>
+            </article>
+        </section>
+        <section class="contato" id="contato">
+            <div class="contato-info">
+                <div class="formulario">
+                    <div class="info-formulario">
+                        <div class="icone-info">
+                            <i class="ri-leaf-fill"></i>
+                            <h3>CONTATO</h3>
+                        </div>
+                        <div class="info-titulo">
+                            <h1>Vamos cultivar <br>o <span>futuro</span> juntos.</h1>
+                            <p>Fale com a AgroNova e descubra como a tecnologia <br>pode transformar sua produção e gerar
+                                resultados <br>sustentáveis.</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <form class="form" autocomplete="on" method="post">
+                        <div class="input-boxs">
+                            <div class="input-box">
+                                <i class="ri-user-line"></i>
+                                <input type="text" name="texto" id="nome" placeholder="Nome" required>
+                                
+                            </div>
+                            <div class="input-box">
+                                <i class="ri-mail-line"></i>
+                                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <i class="ri-phone-line"></i>
+                            <input type="tel" name="telefone" id="telefone" placeholder="Telefone / WhatsApp" maxlength="15" required>
+                            <p id="contagem">0</p>
+                        </div>
+                        <div class="input-box">
+                            <div class="assunto">
+                                <div class="assunto-text">
+                                    <i class="ri-chat-1-line"></i>
+                                    <input type="text" name="assunto" id="assunto-input" placeholder="Assunto" required>
+                                </div>
+                                <i class="ri-arrow-down-s-fill" id="select-icon"></i>
+                            </div>
+                            <div class="selecao-assunto">
+                                <p>Solicitar orçamento</p>
+                                <p>Demonstração da plataforma</p>
+                                <p>Agricultura de precisão</p>
+                                <p>Monitoramento por drones</p>
+                                <p>Irrigação inteligente</p>
+                                <p>Análise de solo</p>
+                                <p>Gestão de lavouras</p>
+                                <p>Suporte técnico</p>
+                                <p>Parcerias</p>
+                                <p>Trabalhe conosco</p>
+                                <p>Outros</p>
+                            </div>
+                        </div>
+                        <div class="input-text">
+                            <i class="ri-message-3-line"></i>
+                            <textarea name="mensagem" id="mensagem" rows="5" cols="20" placeholder="Mensagem"></textarea>
+                        </div>
+                        <button onclick="validar()"><i class="ri-send-plane-fill"></i> ENVIAR MENSAGEM</button>
+                    </form>
+                </div>
+            </div>
+            <div class="informacao-contato">
+                <div class="card-info">
+                    <i class="ri-whatsapp-fill"></i>
+                    <div class="info">
+                        <h4>WhatsApp</h4>
+                        <h5>(11) 99999-9999</h5>
+                        <p>Atendimento rapido <br>e direto</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <i class="ri-mail-fill"></i>
+                    <div class="info">
+                        <h4>E-mail</h4>
+                        <h5>Contato@agronova.com</h5>
+                        <p>Respondemos em <br>até 24h</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <i class="ri-map-pin-2-fill"></i>
+                    <div class="info">
+                        <h4>Endereço</h4>
+                        <h5>Av. doAgro, 1000 <br>Ribeirão Preto - SP</h5>
+                        <p>CEP 14000-000</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <i class="ri-time-fill"></i>
+                    <div class="info">
+                        <h4>Horário de atendimento</h4>
+                        <h5>Segunda a Sexta <br>8h ás 18h</h5>
+                        <p>Exceto feriados</p>
+                    </div>
+                </div>
+                <div class="inform-desc">
+                    <i class="ri-double-quotes-l"></i>
+                    <p>Tecnologia no campo. <br>Resultado que transformam.</p>
+                    <div class="icone-desc">
+                        <hr>
+                        <i class="ri-leaf-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/MotionPathPlugin.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/arrays.js"></script>
+</body>
+
+</html>

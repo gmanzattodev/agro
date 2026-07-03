@@ -1,0 +1,118 @@
+.geral{
+    background-color: #0D1510;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: none;
+    border-radius: 20px;
+    overflow: auto;
+}
+.geral::-webkit-scrollbar{
+    display: none;
+}
+.geral.active{
+    display: block;
+}
+.info-central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-central h4{
+    font-size: 10px;
+    color: var(--text-primary);
+    font-family: var(--font-title);
+}
+.info-central h4 span{
+    color: var(--primary);
+}
+.info-central p{
+    text-align: center;
+    font-size: 9px;
+    color: rgb(163, 163, 163);
+    font-family: var(--font-text);
+}
+.secoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 10px 0px 10px;
+
+}
+.secao-central{
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    
+}
+.secao-catalogo{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+    border-bottom: 1px solid #008000;
+    transition: 0.5s;
+}
+.secao-catalogo i{
+    color: var(--primary);
+    font-size: 20px;
+}
+.secao-separada{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.secao-separada i{
+    color: rgb(11, 148, 11);
+    background-color: rgba(0, 128, 0, 0.205);
+    padding:7px;
+    border: 1px solid #008000;
+    border-radius: 50%;
+}
+
+.info-secao h3{
+    color: var(--text-primary);
+    font-family: var(--font-text);
+    font-size: 14px;
+}
+.info-secao p{
+    color: #808080;
+    font-size: 10px;
+    font-family: var(--font-title);
+}
+.catalogo-secao-info{
+    display: flex;
+    justify-content: space-between;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    gap: 10px;
+}
+.catalogo-secao-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.catalogo-secao-info .info-catalogo{
+    font-size: 9px;
+    font-family: var(--font-text);
+    color: var(--text-primary);
+}
+.info-catalogo button{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid #008000;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #008000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.info-catalogo button:hover{
+    background-color: rgb(0, 128, 0);
+    color: var(--text-primary);
+}
+.catalogo-secao-info.aumentar{
+    height: 80px;
+}

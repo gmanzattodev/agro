@@ -1,0 +1,94 @@
+:root {
+  /* ==========================
+       CORES PRINCIPAIS
+    ========================== */
+
+  --primary: #61ff00;
+  --primary-hover: #7dff2e;
+  --primary-dark: #3cb300;
+
+  /* ==========================
+       BACKGROUNDS
+    ========================== */
+
+  --bg-main: #050b07;
+  --bg-secondary: #0b120d;
+  --bg-card: rgba(12, 22, 15, 0.85);
+  --bg-glass: rgba(255, 255, 255, 0.03);
+
+  /* ==========================
+       TEXTOS
+    ========================== */
+
+  --text-title: #ffffff;
+  --text-primary: #e7e7e7;
+  --text-secondary: #b8b8b8;
+  --text-muted: #7e7e7e;
+
+  /* ==========================
+       ÍCONES
+    ========================== */
+
+  --icon-primary: #61ff00;
+  --icon-secondary: #ffffff;
+  --icon-muted: #6f6f6f;
+
+  /* ==========================
+       BORDAS
+    ========================== */
+
+  --border-primary: rgba(97, 255, 0, 0.3);
+  --border-secondary: rgba(255, 255, 255, 0.08);
+
+  /* ==========================
+       SOMBRAS
+    ========================== */
+
+  --shadow-primary:
+    0 0 10px rgba(97, 255, 0, 0.3), 0 0 20px rgba(97, 255, 0, 0.2);
+
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+  /* ==========================
+       GRADIENTES
+    ========================== */
+
+  --gradient-primary: linear-gradient(90deg, #61ff00, #44c400);
+
+  --gradient-dark: linear-gradient(
+    180deg,
+    rgba(5, 11, 7, 0.2),
+    rgba(5, 11, 7, 0.95)
+  );
+
+  /* ==========================
+       FONTES
+    ========================== */
+
+  --font-title: "Montserrat", sans-serif;
+  --font-text: "Inter", sans-serif;
+
+  /* ==========================
+       TAMANHOS
+    ========================== */
+
+  --fs-title: 6rem;
+  --fs-subtitle: 2rem;
+  --fs-text: 1rem;
+  --fs-small: 0.875rem;
+
+  /* ==========================
+       TRANSIÇÕES
+    ========================== */
+
+  --transition: all 0.4s ease;
+
+  /* ==========================
+       RADIUS
+    ========================== */
+
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 2rem;
+  --radius-full: 999px;
+}

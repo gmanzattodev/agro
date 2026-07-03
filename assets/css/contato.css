@@ -1,0 +1,239 @@
+.contato{
+    min-height: 100vh;
+    background-color: #F5F5EE;
+    padding-top: 7rem;
+}
+.contato-info{
+    display: flex;
+}
+.image-contato{
+    position: relative;
+}
+
+.formulario{
+    padding-left: 2rem;
+}
+.info-formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info-formulario .icone-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    opacity: 0;
+}
+.icone-info i{
+    font-size: 20px;
+    color: #5C9320;
+}
+.icone-info h3{
+    color: #5C9320;
+    font-family: var(--font-text);
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.info-titulo h1{
+    color: #1B341A;
+    font-family: var(--font-text);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.info-titulo h1 span{
+    color: #5C9320;
+}
+.info-titulo p{
+    color: rgb(51, 51, 51);
+    font-family: var(--font-text);
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.info-titulo hr{
+    background-color: #5C9320;
+    height: 2px;
+    width: 3rem;
+    border: none;
+    margin-bottom: 2rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+.form .input-boxs{
+    display: flex;
+    gap: 10px;
+    align-items: centerw;
+}
+.form .input-box{
+    border: 1px solid #5C9320;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+.form .input-box i{
+    color: #1b1b1b;
+}
+.form .input-box input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #1B341A;
+    font-family: var(--font-text);
+}
+.form .input-box .assunto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+.form .input-box .assunto-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.selecao-assunto{
+    position: absolute;
+    top: 40px;
+    background-color: #F5F5EE;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 10px 0 10px 0;
+    display: none;
+    border: 1px solid #5C9320;
+    border-radius: 10px;
+}
+.selecao-assunto.active{
+    display: block;
+}
+.selecao-assunto p{
+    font-family: var(--font-text);
+    font-size: 13px;
+    padding: 3px;
+    cursor: pointer;
+}
+.selecao-assunto p:hover{
+    background-color: blue;
+    color: #F5F5EE;
+}
+.input-text{
+    border: 1px solid #5C9320;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+}
+.input-text textarea{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+.form button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #5C9320;
+    color: #F5F5EE;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form button i{
+    font-size: 20px;
+    color: #F5F5EE;
+}
+.informacao-contato{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #1B341A;
+    min-height: 150px;
+    padding: 10px;
+}
+.informacao-contato .card-info{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    width: 400px;
+}
+.card-info i{
+    color: #5C9320;
+    font-size: 20px;
+    border: 4px solid #5C9320;
+    border-radius: 50%;
+    padding: 5px;
+}
+.card-info .info{
+    color: #F5F5EE;
+}
+.card-info .info h4{
+    font-family: var(--font-text);
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+}
+.card-info .info h5{
+    font-family: var(--font-text);
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.card-info .info p{
+    font-family: var(--font-text);
+    font-size: 9px;
+    color: #c5c5c5;
+}
+.inform-desc i{
+    color: #5C9320;
+    font-size: 40px;
+}
+.inform-desc p{
+    color: #F5F5EE;
+    font-family: var(--font-title);
+    font-size: 13px;
+}
+.inform-desc .icone-desc{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.inform-desc .icone-desc hr{
+    width: 3rem;
+    height: 1px;
+    background-color: #5C9320;
+    border: none;
+}
+.inform-desc .icone-desc i{
+    font-size: 20px;
+}
+.remove{
+    display: none;
+}
+#contagem{
+    padding-right: 10px;
+}
