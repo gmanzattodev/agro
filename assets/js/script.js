@@ -157,7 +157,7 @@ const navcontato = document.getElementById("navcontato");
 const contato = document.getElementById("contato");
 const junto = [contato, navcontato];
 junto.forEach((e) => {
-  e.classList.add("remoe");
+  e.classList.add("remove");
 });
 
 const btn_contato = document.getElementById("btn-contato");
@@ -165,7 +165,7 @@ const titulo = new SplitType(".info-titulo h1, .info-titulo p", {
   types: "chars",
 });
 
-const timee = gsap.timeline({ paused:tue });
+const timee = gsap.timeline({ paused:true });
 timee
   .to(".info-formulario .icone-info", {
     opacity: 1,
