@@ -29,6 +29,7 @@ Este projeto foi criado com o objetivo de aprofundar conhecimentos em desenvolvi
 * Navegação dinâmica entre conteúdos
 * Design moderno e responsivo
 * Experiência de usuário focada em interatividade
+* Use a senha **123456** para entrar no celular
 
 ---
 
